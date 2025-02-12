@@ -1,0 +1,21 @@
+PATH
+  remote: .
+  specs:
+    hola (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  hola!
+
+RUBY VERSION
+   ruby 3.3.6p108
+
+BUNDLED WITH
+   2.5.22
