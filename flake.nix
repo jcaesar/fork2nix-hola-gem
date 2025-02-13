@@ -7,9 +7,11 @@
   in {
     packages = allSys (pkgs: {
       default = let
-        pkg = {bundlerApp}:
-          bundlerApp {
-            pname = "hola";
+        pkg = {buildRubyGem}:
+          buildRubyGem {
+            gemName = "hola";
+            version = "0.0.0";
+            src = ./.;
             gemdir = ./.;
             exes = ["hola"];
           };
